@@ -1,2 +1,2 @@
 # Custom-Shortcut
-Universal Shortcuts for windows using AutoHotKey
+- Universal Shortcuts for windows using AutoHotKey
