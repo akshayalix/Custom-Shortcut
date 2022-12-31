@@ -10,4 +10,4 @@
 - Ctrl + Win + i = Control Panel
 - Ctrl + Shift + ` = Custom Program (Process Hacker 2)
 - Ctrl + Alt + a = Run Script as Admin
-- Ctrl + Alt + m = Minimize Current Window
+- Ctrl + Alt + Tab = Minimize Current Window
