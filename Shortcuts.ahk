@@ -46,6 +46,14 @@ Return
 WinMinimize, A
 Return
 
+^#r::
+Run, C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Restart.lnk
+Return
+
+^#s::
+Run, C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Shutdown.lnk
+Return
+
 ^!l::
 Run, C:\Program Files\PowerToys\PowerToys.exe
 Run, C:\Program Files (x86)\Mica For Everyone\MicaForEveryone.exe
