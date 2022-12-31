@@ -42,6 +42,10 @@ if not (A_IsAdmin or RegExMatch(full_command_line, " /restart(?!\S)"))
 }
 Return
 
+^!m::
+WinMinimize, A
+Return
+
 ^!q::
 ExitApp
 Return
