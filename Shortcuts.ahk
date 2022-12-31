@@ -28,6 +28,20 @@ Return
 Run, C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Process Hacker 2\Process Hacker 2.lnk
 Return
 
+^!a::
+if not (A_IsAdmin or RegExMatch(full_command_line, " /restart(?!\S)"))
+{
+    try
+    {
+        if A_IsCompiled
+            Run *RunAs "%A_ScriptFullPath%" /restart
+        else
+            Run *RunAs "%A_AhkPath%" /restart "%A_ScriptFullPath%"
+    }
+    ExitApp
+}
+Return
+
 ^!q::
 ExitApp
 Return
