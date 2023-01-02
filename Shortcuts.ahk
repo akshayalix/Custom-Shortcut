@@ -60,6 +60,10 @@ Run, C:\Program Files (x86)\Mica For Everyone\MicaForEveryone.exe
 Run, C:\Program Files (x86)\Rapoo Audio 7.1\Rapoo Audio 7.1.exe
 Return
 
+#m::
+Volume_Mute
+Return
+
 ^!q::
 ExitApp
 Return
