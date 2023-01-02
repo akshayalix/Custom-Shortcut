@@ -61,7 +61,7 @@ Run, C:\Program Files (x86)\Rapoo Audio 7.1\Rapoo Audio 7.1.exe
 Return
 
 #m::
-Volume_Mute
+Send {Volume_Mute}
 Return
 
 ^!q::
