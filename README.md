@@ -13,3 +13,4 @@
 - Ctrl + Alt + Tab = Minimize Current Window
 - Ctrl + Win + r = Restart System
 - Ctrl + Win + s = Shutdown System
+- Win + m = Volume Mute
