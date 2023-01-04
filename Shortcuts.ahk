@@ -64,6 +64,10 @@ Return
 Send {Volume_Mute}
 Return
 
+#f::
+WinMaximize, A
+Return
+
 ^!q::
 ExitApp
 Return
