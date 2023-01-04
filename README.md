@@ -1,7 +1,8 @@
 # Custom-Shortcut
+
 - Universal Shortcuts for windows using AutoHotKey
 
-# Key-Binds
+## Key-Binds
 
 - Win + Enter = Terminal
 - Win + ` = CloseWindow
