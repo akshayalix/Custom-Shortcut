@@ -16,3 +16,4 @@
 - Ctrl + Win + s = Shutdown System
 - Win + m = Volume Mute
 - Win + f = Fullscreen Active Window
+- Win + shift + ` = Kill open window
