@@ -68,6 +68,10 @@ Return
 WinMaximize, A
 Return
 
+#+`::
+WinKill, A
+Return
+
 ^!q::
 ExitApp
 Return
