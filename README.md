@@ -12,8 +12,8 @@
 - Ctrl + Shift + ` = Custom Program (Process Hacker 2)
 - Ctrl + Alt + a = Run Script as Admin
 - Ctrl + Alt + Tab = Minimize Current Window
-- Ctrl + Win + r = Restart System
-- Ctrl + Win + s = Shutdown System
+- Alt + Win + r = Restart System
+- Alt + Win + s = Shutdown System
 - Win + m = Volume Mute
 - Win + f = Fullscreen Active Window
 - Win + shift + ` = Kill open window
