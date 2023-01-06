@@ -46,11 +46,11 @@ Return
 WinMinimize, A
 Return
 
-^#r::
+#!r::
 Run, C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Restart.lnk
 Return
 
-^#s::
+#!s::
 Run, C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Shutdown.lnk
 Return
 
@@ -64,13 +64,6 @@ Return
 Send {Volume_Mute}
 Return
 
-#f::
-WinMaximize, A
-Return
-
-#+`::
-WinKill, A
-Return
 
 ^!q::
 ExitApp
