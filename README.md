@@ -15,5 +15,6 @@
 - Alt + Win + r = Restart System
 - Alt + Win + s = Shutdown System
 - Win + m = Volume Mute
-- Win + f = Fullscreen Active Window
 - Win + shift + ` = Kill open window
+- Ctrl + Shift + l = Open Lively Wallpaper
+- ~ESC(Long-Press) = Close Active Window
