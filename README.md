@@ -18,3 +18,4 @@
 - Win + shift + ` = Kill open window
 - Ctrl + Shift + l = Open Lively Wallpaper
 - ~ESC(Long-Press) = Close Active Window
+- Win + c = Open Chrome
