@@ -74,6 +74,10 @@ If ErrorLevel
     PostMessage, 0x112, 0xF060,,, A
 Return
 
+#c::
+Run, C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk
+Return
+
 ^!q::
 ExitApp
 Return
