@@ -58,6 +58,7 @@ Return
 Run, C:\Program Files\PowerToys\PowerToys.exe
 Run, C:\Program Files (x86)\Mica For Everyone\MicaForEveryone.exe
 Run, C:\Program Files (x86)\Rapoo Audio 7.1\Rapoo Audio 7.1.exe
+Run, C:\Program Files\SuperF4\SuperF4.exe
 Return
 
 #m::  ; Win + m = Volume Mute
@@ -83,8 +84,7 @@ Run, C:\Users\aksha\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual
 Return
 
 #+`::
-WinGet, active_id, PID, A
-Run, taskill /PID %active_id% /F,,Hide
+Send, ^!{F4}
 Return
 
 ^!q::
