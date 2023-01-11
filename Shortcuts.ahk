@@ -78,6 +78,15 @@ Return
 Run, C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk
 Return
 
+#w::
+Run, C:\Users\aksha\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code\Visual Studio Code.lnk
+Return
+
+#+`::
+WinGet, active_id, PID, A
+Run, taskill /PID %active_id% /F,,Hide
+Return
+
 ^!q::
 ExitApp
 Return
