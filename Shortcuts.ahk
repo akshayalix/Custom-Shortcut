@@ -84,7 +84,7 @@ Return
 Run, C:\Users\aksha\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code\Visual Studio Code.lnk
 Return
 
-#+`::   ; Win + ` = Close window using altF4
+#+`::   ; Win + shift +` = Force close ative windows using suferF4
 Send, ^!{F4}
 Return
 
