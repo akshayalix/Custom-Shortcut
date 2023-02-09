@@ -52,6 +52,7 @@ Return
 
 #!s::  ; Alt + Win + s = Shutdown System
 Run, C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Shutdown.lnk
+Run, E:\DATA_02\GitHub_Repo\CleanSys\Clear.bat
 Return
 
 ^!l::  ; Ctrl + Alt + l = Custom Programs
@@ -75,18 +76,18 @@ If ErrorLevel
     PostMessage, 0x112, 0xF060,,, A
 Return
 
-#c::
+#c::      ; Win + c = Open chrome
 Run, C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk
 Return
 
-#w::
+#w::     ; Win + W = Open vs code
 Run, C:\Users\aksha\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code\Visual Studio Code.lnk
 Return
 
-#+`::
+#+`::   ; Win + ` = Close window using altF4
 Send, ^!{F4}
 Return
 
-^!q::
+^!q::  ; Quit Script
 ExitApp
 Return
