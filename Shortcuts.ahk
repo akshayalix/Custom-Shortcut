@@ -88,6 +88,10 @@ Return
 Send, ^!{F4}
 Return
 
+^!t::   ; Ctrl + Alt + t = Clear Temps
+Run, E:\DATA_02\GitHub_Repo\CleanSys\Clear.bat
+Return
+
 ^!q::  ; Quit Script
 ExitApp
 Return
