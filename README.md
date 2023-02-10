@@ -20,4 +20,5 @@
 - ~ESC(Long-Press) = Close Active Window
 - Win + c = Open Chrome
 - Win + w = Visual Studio code
+- Ctl + Alt + t = Clear Temps
 
