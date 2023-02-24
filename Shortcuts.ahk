@@ -92,6 +92,12 @@ Return
 Run, E:\DATA_02\GitHub_Repo\CleanSys\Clear.bat
 Return
 
+#q::        ; win + q = Sends nothing disabling search
+Return
+
+#s::        ; win + q = Sends nothing disabling search
+Return
+
 ^!q::  ; Quit Script
 ExitApp
 Return
