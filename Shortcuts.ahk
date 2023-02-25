@@ -98,6 +98,9 @@ Return
 #s::        ; win + q = Sends nothing disabling search
 Return
 
+LWin & vk07::return   ; This will disable the start menu 
+LWin::return          ; from opening, but other win_key combinations will work.
+
 ^!q::  ; Quit Script
 ExitApp
 Return
