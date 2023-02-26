@@ -8,7 +8,7 @@ SetWorkingDir %A_ScriptDir%
 Run, C:\Users\aksha\Documents\Shortcuts\Terminal.lnk
 Return
 
-#`::  ; Win + ` = CloseWindow
+#q::  ; Win + ` = CloseWindow
 send, !{F4}
 Return
 
@@ -90,9 +90,6 @@ Return
 
 ^!t::   ; Ctrl + Alt + t = Clear Temps
 Run, E:\DATA_02\GitHub_Repo\CleanSys\Clear.bat
-Return
-
-#q::        ; win + q = Sends nothing disabling search
 Return
 
 #s::        ; win + q = Sends nothing disabling search
