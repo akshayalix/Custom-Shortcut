@@ -5,7 +5,7 @@
 ## Key-Binds
 
 - Win + Enter = Terminal
-- Win + ` = CloseWindow
+- Win + q = CloseWindow
 - Ctrl + Alt + l = Custom Programs
 - Ctrl + Alt + u = Custom Program (BCUnistaller)
 - Ctrl + Win + i = Control Panel
