@@ -8,7 +8,7 @@ SetWorkingDir %A_ScriptDir%
 Run, C:\Users\aksha\Documents\Shortcuts\Terminal.lnk
 Return
 
-#q::  ; Win + ` = CloseWindow
+#`::  ; Win + ` = CloseWindow
 send, !{F4}
 Return
 
@@ -92,7 +92,10 @@ Return
 Run, E:\DATA_02\GitHub_Repo\CleanSys\Clear.bat
 Return
 
-#s::        ; win + q = Sends nothing disabling search
+#s::        ; win + s = Sends nothing disabling search
+Return
+
+#q::        ; win + q = Sends nothing disabling search
 Return
 
 LWin & vk07::return   ; This will disable the start menu 
