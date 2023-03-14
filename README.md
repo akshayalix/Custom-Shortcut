@@ -21,4 +21,5 @@
 - Win + c = Open Chrome
 - Win + w = Visual Studio code
 - Ctl + Alt + t = Clear Temps
+- win + ctrl + q = Close script
 
